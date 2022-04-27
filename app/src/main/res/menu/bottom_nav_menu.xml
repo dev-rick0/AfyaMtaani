@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:icon="@drawable/ic_home_black_24dp"-->
+<!--        android:title="@string/title_home" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_dashboard"-->
+<!--        android:icon="@drawable/ic_dashboard_black_24dp"-->
+<!--        android:title="@string/title_dashboard" />-->
+
+
+
+    <item
+        style="@style/AppTheme1"
+        android:id="@+id/person"
+        android:title="Vitals"
+        android:icon="@drawable/ic_vitals_foreground"/>
+    <item
+        style="@style/AppTheme1"
+        android:id="@+id/home"
+        android:title="Diagnosis"
+        android:icon="@drawable/ic_diagnosis_foreground"/>
+    <item
+        style="@style/AppTheme1"
+        android:id="@+id/settings"
+        android:title="Prescription"
+        android:icon="@drawable/ic_prescription_foreground"/>
+
+</menu>

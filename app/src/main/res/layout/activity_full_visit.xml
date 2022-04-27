@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullVisit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/cantarell"
+            android:text="Start Patient Visit"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextId"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"/>-->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewPatient" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextPatientGender" android:fontFamily="@font/cantarell" android:text="Patient ID" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editPatientId" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Patient ID" android:inputType="textPersonName" android:padding="10dp" android:textAlignment="textStart"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonGet"-->
+<!--            android:text="Get"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewAllergies" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextPatientGender" android:fontFamily="@font/cantarell" android:text="Allergies" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextALlergies" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Allergies" android:inputType="textPersonName" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewTemperature" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextTemperature" android:fontFamily="@font/cantarell" android:text="Temperature" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/editTextPatientGender"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextTemperature" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textViewAge" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Temperature" android:inputType="number" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewHeight" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextFullName" android:fontFamily="@font/cantarell" android:text="Height" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/editTextAge"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextHeight" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textViewFullName" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Height" android:inputType="textEmailAddress" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewWeight" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextContactNumber" android:fontFamily="@font/cantarell" android:text="Weight" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/editTextFullName"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextWeight" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textViewContactNumber" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Weight" android:inputType="phone" android:padding="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewBloodPressure" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextReferenceContact" android:fontFamily="@font/cantarell" android:text="Blood Pressure" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/editTextContactNumber"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextBloodPressure" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textViewReferenceContact" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Blood Pressure" android:inputType="textPassword" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewRespiration" android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="@+id/editTextProfession" android:fontFamily="@font/cantarell" android:text="Respiration" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/editTextReferenceContact"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextRespiration" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textViewProfession" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Respiration" android:inputType="textPassword" android:padding="10dp" android:textAlignment="textStart"/>
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewPulse" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextPatientGender" android:fontFamily="@font/cantarell" android:text="Pulse" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextPulse" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Pulse" android:inputType="textPersonName" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSymptoms" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextPatientGender" android:fontFamily="@font/cantarell" android:text="Symptoms" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextSymptoms" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Symptoms" android:inputType="textPersonName" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewDiagnosis" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextPatientGender" android:fontFamily="@font/cantarell" android:text="Diagnosis" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextDiagnosis" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Diagnosis" android:inputType="textPersonName" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewAddress" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="@+id/editTextPatientGender" android:fontFamily="@font/cantarell" android:text="Prescription" android:textColor="#000000" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <EditText android:layout_width="343dp" android:layout_height="48dp" android:id="@+id/editTextPrescription" android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:fontFamily="@font/cantarell" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4" android:background="@drawable/rounded_edittxt" android:ems="10" android:hint="Prescription" android:inputType="textPersonName" android:padding="10dp" android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/buttonGet"
+            android:layout_width="373dp"
+            android:layout_height="67dp"
+
+            android:background="@drawable/rounded_btn"
+            android:fontFamily="@font/cantarell"
+            android:text="Confirm Visit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextProfession" />
+
+
+    </LinearLayout>
+
+</ScrollView>
