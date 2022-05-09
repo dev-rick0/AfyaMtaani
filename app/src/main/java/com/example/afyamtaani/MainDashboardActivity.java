@@ -63,13 +63,10 @@ public class MainDashboardActivity extends AppCompatActivity {
                 startVisit();
             }
         });
-
-
-
     }
 
     private void startVisit() {
-        Intent intent = new Intent(this, FullVisit.class);
+        Intent intent = new Intent(this, ListActivity.class);
         startActivity(intent);
     }
 
@@ -79,7 +76,7 @@ public class MainDashboardActivity extends AppCompatActivity {
     }
 
     private void findPatient(){
-            Intent intent = new Intent(this, FindPatientActivity.class);
+            Intent intent = new Intent(this, ListActivity.class);
             startActivity(intent);
     }
 }

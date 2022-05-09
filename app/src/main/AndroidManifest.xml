@@ -3,9 +3,8 @@
     package="com.example.afyamtaani">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 
     <application
         android:allowBackup="true"
@@ -15,9 +14,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+
         <activity
-            android:name=".FullVisit"
-            android:exported="false" />
+            android:name="com.example.afyamtaani.StartVisit"
+            android:parentActivityName=".ListActivity">
+        </activity>
+
+
+        <activity android:name="com.example.afyamtaani.ListActivity">
+
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.MAIN" />-->
+
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
+        </activity>
+        <activity android:name="com.example.afyamtaani.DetailDataActivity"
+            android:parentActivityName="com.example.afyamtaani.ListActivity"/>
+        <activity android:name="com.example.afyamtaani.EditActivity"
+            android:parentActivityName="com.example.afyamtaani.ListActivity">
+
+        </activity>
+
+
+
         <activity
             android:name=".SVMainDashoard"
             android:exported="false" />
@@ -46,6 +66,8 @@
         <activity android:name=".EditProfileDoctorActivity" />
         <activity android:name=".DoctorHomepageActivity" />
         <activity android:name=".SignupAsPatientActivity" />
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

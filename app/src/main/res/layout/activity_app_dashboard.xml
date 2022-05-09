@@ -255,7 +255,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="My Documents"
+                    android:text="Patient Documents"
                     android:textColor="@color/textcardColor"
                     android:textSize="14sp"
                     android:layout_marginTop="8dp"

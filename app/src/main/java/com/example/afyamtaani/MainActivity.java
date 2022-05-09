@@ -19,18 +19,32 @@ import com.google.firebase.storage.StorageReference;
 public class MainActivity extends AppCompatActivity {
 
     Button hwbutton;
+    Button mwbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         hwbutton = (Button) findViewById(R.id.btn_login_as_doctor);
+        mwbutton = (Button) findViewById(R.id.btn_login_as_patient);
         hwbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 LoginDoctor();
             }
         });
+
+        mwbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loginDoctor();
+            }
+        });
+    }
+
+    private void loginDoctor() {
+        Intent intent = new Intent(this,LoginDoctorActivity.class);
+        startActivity(intent);
     }
 
     private void LoginDoctor() {
