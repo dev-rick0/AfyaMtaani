@@ -5,7 +5,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,30 +13,42 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
         <activity
-            android:name="com.example.afyamtaani.StartVisit"
-            android:parentActivityName=".ListActivity">
+            android:name=".ChwDshboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PharmacistDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabolatoryDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPharmacistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginLabolatoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginHealthWorkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartVisit"
+            android:parentActivityName=".ListActivity" />
+        <activity android:name=".ListActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
-
-
-        <activity android:name="com.example.afyamtaani.ListActivity">
-
-<!--        <intent-filter>-->
-<!--            <action android:name="android.intent.action.MAIN" />-->
-
-<!--            <category android:name="android.intent.category.LAUNCHER" />-->
-<!--        </intent-filter>-->
-        </activity>
-        <activity android:name="com.example.afyamtaani.DetailDataActivity"
-            android:parentActivityName="com.example.afyamtaani.ListActivity"/>
-        <activity android:name="com.example.afyamtaani.EditActivity"
-            android:parentActivityName="com.example.afyamtaani.ListActivity">
-
-        </activity>
-
-
-
+        <activity
+            android:name=".DetailDataActivity"
+            android:parentActivityName=".ListActivity" />
+        <activity
+            android:name=".EditActivity"
+            android:parentActivityName=".ListActivity" />
         <activity
             android:name=".SVMainDashoard"
             android:exported="false" />
@@ -66,8 +77,6 @@
         <activity android:name=".EditProfileDoctorActivity" />
         <activity android:name=".DoctorHomepageActivity" />
         <activity android:name=".SignupAsPatientActivity" />
-
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

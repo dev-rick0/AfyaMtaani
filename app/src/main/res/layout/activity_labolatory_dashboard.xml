@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainDashboardActivity">
-
+    tools:context=".LabolatoryDashboardActivity">
     <View
         android:layout_width="match_parent"
         android:layout_height="230dp"
@@ -21,13 +20,13 @@
         android:layout_height="71dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="24dp"
-        android:src="@drawable/ic_photo_user"
+        android:src="@drawable/man"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:textSize="20sp"
-        android:text="John Kamau"
+        android:text="Brian Wesonga"
         android:id="@+id/user_name"
         android:textColor="#ffffff"
         android:fontFamily="@font/lato"
@@ -40,7 +39,7 @@
 
     <TextView
         android:textSize="16sp"
-        android:text="4101410141"
+        android:text="4101410451"
         android:id="@+id/user_id"
         android:fontFamily="@font/lato"
         android:textColor="#ffffff"
@@ -171,12 +170,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="87dp"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/patient" />
+                    android:background="@drawable/test0" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Start Visit"
+                    android:text="Start Test"
                     android:textColor="@color/textcardColor"
                     android:textSize="14sp"
                     android:layout_marginTop="8dp"
@@ -255,7 +254,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Referrals"
+                    android:text="Patient Docs"
                     android:textColor="@color/textcardColor"
                     android:textSize="14sp"
                     android:layout_marginTop="8dp"
@@ -279,7 +278,7 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="102dp"
+                android:layout_height="123dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:gravity="center"
@@ -287,9 +286,9 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="62dp"
+                    android:layout_height="87dp"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/que" />
+                    android:background="@drawable/document0" />
 
                 <TextView
                     android:layout_width="wrap_content"

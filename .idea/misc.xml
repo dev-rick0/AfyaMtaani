@@ -4,35 +4,50 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_bg_topheader.xml" value="0.13" />
-        <entry key="app/src/main/res/layout/activity_app_dashboard.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_app_dashboard.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_book.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_book_appointment.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_book_doctor.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_book_for_later.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_book_for_later_success.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_book_for_now.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_chw_dshboard.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_config.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_create_patient.xml" value="0.4415322580645161" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_detail_data.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_doctor_homepage.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_edit.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_edit_profile_doctor.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_edit_profile_patient.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_enter_otpdoctor.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_find_patient.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_full_visit.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_get_patient.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_labolatory_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.2351851851851852" />
         <entry key="app/src/main/res/layout/activity_login_doctor.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_login_health_worker.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_login_labolatory.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/activity_login_patient.xml" value="0.2625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_login_pharmacist.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_otpsuccess_doctor.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_patient_homepage.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/activity_payment_success.xml" value="0.2625" />
-        <entry key="app/src/main/res/layout/activity_signup_as_patient.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_pharmacist_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_signup_as_patient.xml" value="0.2727272727272727" />
+        <entry key="app/src/main/res/layout/activity_signup_doctor.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_signup_patient_success.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/activity_start_visit.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_svmain_dashoard.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/fragment_diagnosis.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_prescription.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_vitals.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/spinnerlayout.xml" value="0.2625" />
         <entry key="app/src/main/res/layout/test_row.xml" value="0.2625" />
+        <entry key="app/src/main/res/menu/add.xml" value="0.2351851851851852" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>

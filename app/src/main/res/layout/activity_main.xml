@@ -54,35 +54,19 @@
         app:layout_constraintTop_toBottomOf="@+id/ivSubtitle"
         app:srcCompat="@drawable/doctor3" />
 
-    <Button
-        android:id="@+id/btn_login_as_doctor"
+    <Spinner
+        android:id="@+id/spinner"
         android:layout_width="274dp"
         android:layout_height="67dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/rounded_btn_main"
         android:fontFamily="@font/cantarell"
-        android:text="Login As Health Worker"
+        android:hint="Login"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="24sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/ivSubtitle"
         app:layout_constraintStart_toStartOf="@+id/ivSubtitle"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
-    <Button
-        android:id="@+id/btn_login_as_patient"
-        android:layout_width="274dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/rounded_btn_main"
-        android:fontFamily="@font/cantarell"
-        android:text="Login As Doctor"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/ivSplash"
-        app:layout_constraintEnd_toEndOf="@+id/btn_login_as_doctor"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btn_login_as_doctor"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login_as_doctor"
-        app:layout_constraintVertical_bias="0.114" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

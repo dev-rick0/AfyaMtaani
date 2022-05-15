@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainDashboardActivity">
-
+    tools:context=".PharmacistDashboardActivity">
     <View
         android:layout_width="match_parent"
         android:layout_height="230dp"
@@ -21,13 +20,13 @@
         android:layout_height="71dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="24dp"
-        android:src="@drawable/ic_photo_user"
+        android:src="@drawable/man"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:textSize="20sp"
-        android:text="John Kamau"
+        android:text="Brian Musyoka"
         android:id="@+id/user_name"
         android:textColor="#ffffff"
         android:fontFamily="@font/lato"
@@ -65,47 +64,6 @@
         app:layout_constraintTop_toTopOf="@id/bg_top_header"
         app:layout_constraintVertical_bias="0.0"
         app:layout_editor_absoluteX="0dp">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/cardColor"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btncreatePatient"
-                    android:layout_width="wrap_content"
-                    android:layout_height="96dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/createpatient" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Create Patient"
-                    android:layout_marginTop="8dp"
-                    android:fontFamily="@font/lato"
-                    android:textColor="@color/textcardColor"
-                    android:textSize="14sp"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -129,7 +87,7 @@
                 <Button
                     android:id="@+id/findPatient"
                     android:layout_width="wrap_content"
-                    android:layout_height="97dp"
+                    android:layout_height="138dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/search" />
 
@@ -169,57 +127,17 @@
                 <Button
                     android:id="@+id/startVisit"
                     android:layout_width="wrap_content"
-                    android:layout_height="87dp"
+                    android:layout_height="152dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/patient" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Start Visit"
+                    android:text="Prescribe"
                     android:textColor="@color/textcardColor"
                     android:textSize="14sp"
                     android:layout_marginTop="8dp"
-                    android:fontFamily="@font/lato"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/cardColor"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btnteleconsultation"
-                    android:layout_width="wrap_content"
-                    android:layout_height="96dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@drawable/small" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Teleconsultation"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@color/textcardColor"
-                    android:textSize="14sp"
                     android:fontFamily="@font/lato"
                     android:textStyle="bold"/>
             </LinearLayout>
@@ -248,14 +166,14 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="103dp"
+                    android:layout_height="153dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/docs" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Referrals"
+                    android:text="Patient Docs"
                     android:textColor="@color/textcardColor"
                     android:textSize="14sp"
                     android:layout_marginTop="8dp"
@@ -279,7 +197,7 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="102dp"
+                android:layout_height="197dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:gravity="center"
@@ -287,19 +205,19 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="62dp"
+                    android:layout_height="159dp"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/que" />
-
+                    android:background="@drawable/document" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:fontFamily="@font/lato"
                     android:text="My Docs"
                     android:textColor="@color/textcardColor"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
